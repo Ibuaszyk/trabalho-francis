@@ -1,0 +1,205 @@
+    body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 100%;
+    background-color:#f7f6e4;
+    color: black;
+}
+
+*{
+    margin: 0;
+}
+
+header{
+    background-image: linear-gradient(to right,#d4c098, #e2d5c1) ;
+    border-radius: 10px;
+    font-size: 18px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.logo img{
+    width: 20%;
+}
+
+.navegacao{
+    text-align: right;
+    position: relative;
+    right: 10px;
+}
+.navegacao a{
+    color: black;
+    text-decoration: dashed;
+}
+.navegacao a:hover{
+    background-color: #5f3711;
+    color: white;
+    text-decoration: none;
+    padding: 2px;
+}
+
+.fachada{
+    position: relative;
+    background-image: url(../img/Fachada.jpg);
+    height: 25vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    border-radius: 10px;
+}
+.conteudosobre{
+    display: flex;
+    flex-direction: column; /*jeito da coluna*/
+    margin: 15px 100px 25px 100px;
+    background-color: #e2d5c1;
+    padding: 20px; /*preenchimento*/
+    border-radius: 10px; /*arredondamento da div*/
+    box-shadow: 1px 1px 10px #5f3711; /*sombra em volta da box*/
+}
+.conteudosobre h1{
+    text-align: center;
+}
+.conteudosobre p{
+    text-align: justify;
+}
+.barra1{
+    position: relative;
+    left: 300px;
+    top: 68px;
+}
+.barra2{
+    position: relative;
+    right: 300px;
+    top: 50px;
+}
+
+.cadeira{
+    width: 20%;
+    padding: 1vw;
+}
+
+.cadeira img{
+    width: 100%;
+}
+.andres{
+        background-color: #e2d5c19c;
+        font-size: 50px;
+        width: fit-content;
+        position: relative;
+        left: 35vw;
+        top: 10vw;
+        opacity: 1;
+}
+.cadeira{
+    display: inline-flex;
+    background-color: #d4c098b4;
+    margin-top: 1%;
+    margin-left: 1%;
+    box-shadow: 1px 1px 10px #5f3711; /*sombra em volta da box*/
+    border-radius: 10px; /*arredondamento da div*/
+    margin-bottom: 1%;
+    padding: 20px; /*preenchimento*/
+} 
+.fachada{
+    text-align: center;
+}
+
+.paginas, .contato, .certificados{
+    display: inline-block;
+    width: 30%;
+    vertical-align: top;
+   
+}
+.rodape a{
+    color: black;
+    text-decoration: none;
+    
+}
+
+.contato{
+    padding: 0 2vw;
+}
+
+.certificados img{
+    width: 20%;
+}
+
+.certificados{
+    text-align: right;
+}
+
+.rodape{
+    padding: 2vw;
+    background-color:#d4c098;
+    border-radius: 10px;
+}
+
+.principal img{
+    width: 100%;
+}
+
+.cadeira{
+    vertical-align: top;
+    height: 20vw;
+}
+.descricao1{
+    display: flex;
+    flex-direction: column; /*jeito da coluna*/
+    margin: 15px 100px 25px 100px;
+    background-color: #e2d5c1;
+    padding: 20px; /*preenchimento*/
+    border-radius: 10px; /*arredondamento da div*/
+    box-shadow: 1px 1px 10px #5f3711; /*sombra em volta da box*/
+}
+.descricao1 h1{
+    text-align: center;
+}
+
+#nossosprodutosimg, #nossosprodutostxt{
+    display: inline-block;
+    vertical-align: top;
+    width: 45%;
+}
+
+#nossosprodutosimg {
+    text-align: right;
+}
+
+#nossosprodutosimg img{
+    width: 60%;
+    margin-right: 2vw;
+}
+
+#nossosprodutostxt{
+    padding: 2vw;
+}
+
+#nossosprodutostxt h2{
+    font-size: 3vw;
+}
+
+#nossosprodutostxt p{
+    margin-bottom: 3vw;
+    font-size: 2.5vw;
+}
+
+#nossosprodutostxt a{
+    background-color: #5f3711;
+    color: white;
+    padding: 1vw 2vw;
+}
+
+#sobrenosindex div{
+    display: inline-block;
+    width: 20%;
+    vertical-align: top;
+    padding: 2vw;
+    border-inline-end: 1px black solid;
+    height: 10vw;
+}
+
+#sobrenosindex{
+    width: fit-content;
+    margin: 2vw 6vw;
+    text-align: justify;
+}
+
